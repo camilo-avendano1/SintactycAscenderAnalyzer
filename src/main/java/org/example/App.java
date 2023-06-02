@@ -11,10 +11,7 @@ import java.awt.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Misael Adame
- */
+
 public class App extends javax.swing.JFrame {
     Lexicon anaLex = new Lexicon();
     SyntacticSLR anaSynt = new SyntacticSLR();
@@ -148,9 +145,6 @@ public class App extends javax.swing.JFrame {
 
     }//GEN-LAST:event_btnAnaSintSLRActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         try {
             UIManager.LookAndFeelInfo[] var1 = UIManager.getInstalledLookAndFeels();
